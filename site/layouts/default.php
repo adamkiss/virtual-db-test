@@ -7,11 +7,15 @@
 </head>
 
 <body class="antialiased dark:bg-gray-900 dark:text-white">
-	<?php
-		slot('content');
-		endslot();
+	<div class="container">
+		<nav>
+			<a href="/">Home</a>
+			<a href="/comments">Comments</a>
+		</nav>
+		<hr>
+	<?php slot('content'); endslot(); ?>
 
-		snippet('layouts/debug');
-	?>
+	</div>
+	<?= snippet('layouts/debug'); ?>
 </body>
 </html>
