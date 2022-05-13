@@ -1,0 +1,6 @@
+Title: Home
+
+----
+
+Text:
+Welcome to vdb. Have fun creating it.
